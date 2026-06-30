@@ -182,7 +182,7 @@ If the developer does not sign off:
 
 After sign-off, the agent generates clean, self-contained printable documents in `project/output/`:
 
-1. **`project/output/project-overview.md`** — Complete project overview, stripped of comments and agent instructions. Includes: project name, problem statement, users, requirements, constraints, architecture, deliverables, success criteria, reference documents. Formatted cleanly with headers and tables. Ready for PDF export.
+1. **`project/output/project-overview.md`** — Complete project overview, stripped of comments and agent instructions. Includes: project name, problem statement, users, requirements, constraints, architecture, deliverables, success criteria, reference documents, key risks, and confidence assessment. Formatted cleanly with headers and tables. Ready for PDF export.
 
 1. **`project/output/executive-summary.md`** — Condensed, non-technical summary for stakeholders who don't need the full detail. One page if possible. Includes: what the project is, who it's for, why it matters, what it will produce, timeline, and key risks.
 

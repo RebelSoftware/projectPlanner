@@ -68,3 +68,19 @@ Ready for PDF export or sharing with stakeholders.
 |------|-----------|--------|------------|
 | | | | |
 | | | | |
+
+## Confidence Assessment
+
+How solid is each part of this plan? This helps stakeholders understand where the
+plan is grounded in evidence and where assumptions still need validation.
+
+| Area | Confidence | What Would Raise It |
+|------|------------|---------------------|
+| Problem definition | | |
+| User / stakeholder understanding | | |
+| Requirements clarity | | |
+| Feasibility | | |
+| Timeline | | |
+| Resource availability | | |
+
+**Confidence levels:** `High` · `Medium` · `Low` · `Unknown`
