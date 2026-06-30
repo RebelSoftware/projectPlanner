@@ -245,6 +245,9 @@ The developer reviews the question before it is sent. The developer may:
 
 When the response arrives, the agent:
 1. Records the question and response in `project/state/questions-log.md`
+1. **Summarizes the response to the developer for review.**
+   - **If the developer confirms:** proceed with incorporation (steps 3–6 below).
+   - **If the developer contests:** log the dispute in `project/state/questions-log.md` and stop — do not incorporate the response or run the checks below.
 1. Incorporates the response into the relevant state files
 1. Checks for **invalidations** — does this response contradict anything in the current overview, branches, or deprecations register?
 1. Logs any **cross-branch flags** — implications for a different branch
