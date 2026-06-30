@@ -121,6 +121,15 @@ Do not load everything at once. Load only what the current situation demands:
 - `project/board/kanban.md` — when populating tasks (Phase Two Step 7) or reviewing the board
 - `diagrams/process-flow.md` — developer reference only; you cannot render diagrams
 
+## Files You Never Load
+
+These files are harness metadata — irrelevant to project planning:
+
+| File | Reason |
+|------|--------|
+| `CHANGELOG.md` | Harness version history |
+| `VERSION` | Harness version number |
+
 **Reference documents in `project/docs/`:** When a developer or client provides a document, read it and extract the 20–50 lines relevant to the plan into `project/state/overview.md`'s Reference Documents table. Do not hold the full document in context.
 
 ---
