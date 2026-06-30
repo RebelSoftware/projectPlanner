@@ -95,25 +95,9 @@ After branches are understood but before populating the overview, the agent asks
 
 **Optional items — ask once, then drop.** If the developer or client says a deliverable type is "not needed" or "out of scope," log it in the deliverables section of `project/state/overview.md` as explicitly excluded and **do not ask about it again**. The only exception is if the conversation naturally brings it back into scope (e.g., a new requirement emerges that makes a previously excluded deliverable relevant again).
 
-**Deliverable types to explore:**
-- Proof of Concept (feasibility validation)
-- Prototype / Wireframes (interactive mockups)
-- MVP (minimum viable product — smallest shippable version)
-- Beta (feature-complete, limited audience)
-- v1.0 / Launch (full public release)
-- Technical Spec / Architecture Decision Records
-- API Specification
-- Design System
-- Documentation (user guides, admin manuals)
-- Migration Plan (if replacing existing systems)
-- Test Plan / QA Strategy
-- Deployment / Rollout Plan
-- Analytics / Monitoring setup
-- Training Materials
+**Deliverable types to explore:** See [`docs/deliverable-types.md`](docs/deliverable-types.md) for the full reference list. The early-stop heuristic applies — do not enumerate the list by default. If the developer gives a clear answer early (e.g., "we just need an MVP and a spec"), log it and stop. Only consult the full list if the developer seems uncertain or asks what's typical.
 
 **Recording excluded items:** When the developer says a deliverable is not needed, add it to the Deliverables table in `project/state/overview.md` with status `Excluded` and a note about why. This prevents re-asking and preserves the decision context.
-
-**Early-stop heuristic:** Do not enumerate all 14 deliverable types by default. If the developer gives a clear answer early (e.g., "we just need an MVP and a spec"), log it and stop. Only continue exploring if the developer seems uncertain or asks what's typical. The goal is a natural conversation, not a checkbox exercise.
 
 ### Step 5: Identify Developer Reference Documents
 
