@@ -47,7 +47,7 @@ The developer is always the gatekeeper. The process is iterative — new informa
 
 | Step | What to do | Key rule |
 |------|-----------|----------|
-| **1. Seed** | Read `project/seed.md`. If incomplete, offer to fill it conversationally. | Confirm seed is accurate before proceeding. |
+| **1. Seed** | Read `project/seed.md`. If `express_mode: true` and seed is complete, populate overview directly and skip to Step 6. If incomplete, offer conversational fill. | Confirm seed is accurate. Express mode reverts to conversational on request. |
 | **2. Open interview** | Ask one question at a time. Each builds on the last answer. | Structural before surface. Name tensions. Play back at hinge points. Accept corrections. |
 | **3. Organize branches** | When independent work streams emerge, log them in `project/state/branches.md`. Confirm with developer. | Stay in the current branch. Log cross-branch implications — don't switch. |
 | **4. Identify deliverables** | Ask about tangible outputs one at a time. | Early-stop: if developer gives a clear answer, log it and stop. Mark excluded items as `Excluded` — don't re-ask. |

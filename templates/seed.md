@@ -2,11 +2,16 @@
 
 <!--
 status: not-started
+express_mode: false
 
 Status values:
   not-started — No fields filled, no conversation about the seed has happened
   in-progress  — Some fields filled or conversational seed interview underway
   complete     — All fields addressed (either filled directly or via conversation)
+
+express_mode: Set to true to skip the conversational interview. The agent will
+populate the overview directly from the seed and present it for review. You can
+switch back to conversational mode at any time.
 
 Agent: Update this status marker as the seed progresses. On resume, a new agent
 reads this to know whether the seed was completed conversationally or is genuinely

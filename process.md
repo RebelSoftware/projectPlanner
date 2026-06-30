@@ -59,6 +59,8 @@ The agent's job is to **track what changed, log why, and propagate consequences*
    - If they choose the conversational path, ask each seed field one at a time and populate `project/seed.md` as they answer.
    - If the seed is partially filled, acknowledge what's there and ask if they'd like to cover the rest conversationally.
 
+**Express mode:** If the developer sets `express_mode: true` in the seed and fills in all fields, the agent skips the conversational interview (Steps 2–5 and 7). Instead, it populates `project/state/overview.md` directly from the seed contents and presents it for review. The developer can switch back to conversational mode at any time — express mode is a convenience, not a commitment.
+
 **Checkpoint:** Developer confirms the seed is accurate before proceeding to Step 2.
 
 ### Step 2: Open — First Pass
