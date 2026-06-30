@@ -365,6 +365,7 @@ When the agent detects that a decision or response in one branch has implication
 The harness supports multi-session planning. When the agent is asked to resume a prior session:
 
 1. **Read `project/state/session-status.md` first** — this tells you the current phase, step, branch, last topic, and any handoff notes the previous agent left.
+1. **Check staleness.** If `Last Updated` is more than 7 days ago, ask the developer: *"It's been [N] days since our last session. Has anything changed in your thinking about this project since then?"* Incorporate any changes before proceeding.
 1. Read `project/state/overview.md` and `project/state/branches.md` to re-establish full context.
 1. Read `project/state/questions-log.md` to understand what's been asked and answered (both phases).
 1. Read `project/state/deprecations.md` to understand what assumptions have been invalidated.

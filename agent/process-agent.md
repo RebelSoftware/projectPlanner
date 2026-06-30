@@ -113,6 +113,7 @@ If any unchecked, return to the relevant step. Do not present for sign-off until
 
 ### Session Resume
 1. Read `project/state/session-status.md` first — the State Digest gives you the project shape at a glance.
+1. **Check staleness.** If `Last Updated` is more than 7 days ago, ask: *"It's been [N] days since our last session. Has anything changed in your thinking about this project since then?"* Incorporate any changes before proceeding.
 1. If the digest is sufficient to orient you, summarize and ask the developer to confirm. Only load `project/state/overview.md`, `project/state/branches.md`, `project/state/questions-log.md`, or `project/state/deprecations.md` if the digest lacks the detail you need.
 1. Do not re-ask answered or deprecated questions.
 
