@@ -26,8 +26,6 @@ Before starting any phase, check whether the `project/` directory exists. If it 
 1. `project/archive/` starts empty (snapshots are generated at checkpoints).
 1. Announce briefly: *"I've set up the project directory from the harness templates — ready to begin."*
 
-> **Why this matters:** All project data lives under `project/` — a single folder that can be copied or backed up independently. The `templates/` directory (part of the harness) is tracked in version control. The `project/` directory is gitignored. This separation allows harness updates to flow in without overwriting collected project information.
-
 ---
 
 ## Overview
@@ -39,7 +37,7 @@ Before starting any phase, check whether the `project/` directory exists. If it 
 
 > **Process flowchart:** [`diagrams/process-flow.md`](../diagrams/process-flow.md)
 
-The developer is always the gatekeeper. The process is iterative — new information can revise anything at any stage.
+The developer is always the gatekeeper. The process is iterative — new information can revise anything at any stage, including Phase Two revising Phase One.
 
 ---
 
@@ -50,10 +48,10 @@ The developer is always the gatekeeper. The process is iterative — new informa
 | Step | What to do | Key rule |
 |------|-----------|----------|
 | **1. Seed** | Read `project/seed.md`. If incomplete, offer to fill it conversationally. | Confirm seed is accurate before proceeding. |
-| **2. Open interview** | Ask one question at a time. Each builds on the last answer. | Prioritize structural questions over surface details. Name tensions explicitly. Play back understanding at hinge points. Accept corrections immediately. |
+| **2. Open interview** | Ask one question at a time. Each builds on the last answer. | Structural before surface. Name tensions. Play back at hinge points. Accept corrections. |
 | **3. Organize branches** | When independent work streams emerge, log them in `project/state/branches.md`. Confirm with developer. | Stay in the current branch. Log cross-branch implications — don't switch. |
 | **4. Identify deliverables** | Ask about tangible outputs one at a time. | Early-stop: if developer gives a clear answer, log it and stop. Mark excluded items as `Excluded` — don't re-ask. |
-| **5. Developer ref docs** | Ask what reference documents the developer has (API specs, architecture docs, brand guidelines, data schemas, existing code, research). | Developer-side only. Client docs come in Phase Two. Log in `project/docs/index.md` and `project/state/overview.md`. |
+| **5. Developer ref docs** | Ask what reference documents the developer has (API specs, architecture docs, brand guidelines, data schemas, existing code, research). | Developer-side only. Client docs in Phase Two. Log in docs/index.md and overview. |
 | **6. Populate overview** | Incrementally fill `project/state/overview.md` during conversation — not as a separate step. | The overview grows organically. |
 | **7. Surface structural gaps** | Before surface details, verify: users known? constraints known? deliverables known? success criteria known? core trade-offs understood? | Resolve structural gaps before drilling into details. |
 | **8. Sign-off** | Present `project/state/overview.md`. Developer reviews and signs off. Archive snapshot. | Nothing leaves Phase One without sign-off. |
@@ -85,11 +83,11 @@ The developer is always the gatekeeper. The process is iterative — new informa
 
 ## Heuristics for Choosing the Next Question
 
-1. **Structural first.** When the developer implies a structural choice (architecture, stakeholders, constraints, timelines), resolve that structure before drilling into details.
-1. **Name tensions.** If the developer mentions a trade-off ("fast but robust"), name it: "Those pull in different directions — which is the priority?"
-1. **Surface gaps.** If something sounds vague or deferred ("we'll figure that out later"), flag it gently.
-1. **Check completeness.** Before surface details, verify foundational questions are answered (who, what, why, constraints, success criteria).
-1. **Ask once, then drop.** If something is ruled out, record it and don't re-ask — unless the conversation naturally brings it back into scope.
+1. **Structural first** — resolve architecture, stakeholders, constraints before surface details.
+1. **Name tensions** — call out trade-offs explicitly; ask which takes priority.
+1. **Surface gaps** — flag vague or deferred topics gently.
+1. **Check completeness** — verify who, what, why, constraints, and success criteria are answered.
+1. **Ask once, then drop** — record exclusions; don't re-ask unless conversation brings it back.
 
 ---
 
