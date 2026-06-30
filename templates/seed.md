@@ -1,0 +1,62 @@
+# Project Seed
+
+<!--
+status: not-started
+
+Status values:
+  not-started — No fields filled, no conversation about the seed has happened
+  in-progress  — Some fields filled or conversational seed interview underway
+  complete     — All fields addressed (either filled directly or via conversation)
+
+Agent: Update this status marker as the seed progresses. On resume, a new agent
+reads this to know whether the seed was completed conversationally or is genuinely
+incomplete.
+-->
+
+<!--
+Fill this in to start Phase One of the project planning process.
+Aim to complete this in 5 minutes or less. It's okay if answers are rough —
+the agent will explore them with you in conversation.
+-->
+
+## Project Name
+
+<!-- What are we calling this? -->
+
+## One-Line Description
+
+<!-- What is this project, in one sentence? -->
+
+## Key Stakeholders & Users
+
+<!-- Who cares about this? Who will use it? Who pays for it? -->
+
+## Core Problem
+
+<!-- What problem does this solve? What's broken or missing? -->
+
+## Known Constraints
+
+<!-- Time, budget, team size, tech stack preferences, regulations, etc. -->
+
+## Target Timeline
+
+<!-- When does this need to be done? Any hard deadlines? -->
+
+## Existing Context
+
+<!-- Links to documents, prior conversations, existing systems, research — anything that already exists. -->
+
+## What Success Looks Like
+
+<!--
+How will you know this project worked? What's the outcome you're aiming for?
+Examples: "X users onboarded in the first month", "Y% reduction in support tickets",
+"Successfully migrate from System A to System B without data loss",
+"Stakeholder sign-off on all requirements by the end of the quarter".
+Measurable is better than vague, but rough is fine — the agent will help refine it.
+-->
+
+---
+
+*Once complete, the agent reads this and begins the Phase One interview.*

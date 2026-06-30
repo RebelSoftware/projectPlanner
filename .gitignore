@@ -1,0 +1,10 @@
+# ---------------------------------------------------------------------
+# Project Planning Harness — .gitignore
+#
+# All project-specific data lives under /project/ — this single rule
+# keeps the complete harness (instructions, templates, agent files)
+# tracked while preventing collected project information from being
+# committed. Harness updates flow in without overwriting project data.
+# ---------------------------------------------------------------------
+
+/project/
