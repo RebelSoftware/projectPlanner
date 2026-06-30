@@ -4,12 +4,16 @@
 Agent: Populate this incrementally as branches resolve and tasks become clear.
 Each task should link back to the relevant section in state/overview.md.
 
+Scope: This is a planning artifact, not an execution tracker. Populate Backlog,
+To Do, and Blocked during planning. The execution columns (In Progress, Review,
+Done) are for the developer to manage after sign-off — you do not track execution.
+
 Columns:
   Backlog     — Identified but not yet ready to start
   To Do       — Ready to start, next priorities
-  In Progress — Currently being worked
-  Review      — Done, pending developer sign-off
-  Done        — Signed off and complete
+  In Progress — Currently being worked (developer-managed)
+  Review      — Done, pending developer sign-off (developer-managed)
+  Done        — Signed off and complete (developer-managed)
   Blocked     — Cannot proceed until a dependency is resolved
 -->
 

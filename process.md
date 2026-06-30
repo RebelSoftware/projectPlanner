@@ -316,6 +316,8 @@ As branches resolve and tasks become clear, the agent populates `project/board/k
 
 The Kanban is populated incrementally — not saved up for the end.
 
+**Scope:** This is a planning artifact, not an execution tracker. The agent populates Backlog, To Do, and Blocked columns during planning. The execution columns (In Progress, Review, Done) are for the developer to manage after the plan is signed off.
+
 ### Step 8: Developer Sign-Off
 
 When the developer confirms Phase Two is complete:

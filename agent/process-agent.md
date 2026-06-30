@@ -87,7 +87,7 @@ If any unchecked, return to the relevant step. Do not present for sign-off until
 | **4b. Record interactions** | Save raw meeting notes, email threads, call summaries to `project/interactions/`. Log in `project/interactions/index.md`. Extract key findings into state files. | Do NOT pre-load interactions into context — consult on demand only. |
 | **5. Propagate changes** | Move invalidated assumptions to `project/state/deprecations.md`. Update overview. Log cross-branch flags. If client reveals/changes branches, return to Phase One Step 3. | Surface significant changes immediately. Log routine ones silently. |
 | **6. Next question** | Formulate next question from updated overview. Continue until no structural questions remain across any branch. | Don't rush to close. If new answers create new gaps, keep going. |
-| **7. Populate Kanban** | Fill `project/board/kanban.md` incrementally as tasks become clear. | Tasks, dependencies, branch ownership, blockers. |
+| **7. Populate Kanban** | Fill `project/board/kanban.md` incrementally as tasks become clear. | Populate Backlog, To Do, Blocked. Execution columns (In Progress, Review, Done) are developer-managed. |
 | **8. Sign-off** | Present final overview, Kanban, and question log. Archive snapshot. Developer signs off. | — |
 | **8a. Sign-off fails** | Identify gap type → re-enter at appropriate step. | See `process.md` for graded re-entry paths. |
 | **9. Generate final docs** | Generate/update `project/output/requirements.md`, `project/output/kanban-board.md`, `project/output/project-overview.md`, `project/output/executive-summary.md`. | Replace entirely — do not append. Strip scaffolding. |
