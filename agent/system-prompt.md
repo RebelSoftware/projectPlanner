@@ -89,6 +89,7 @@ The `templates/` directory contains starter templates for all working files. The
 | `project/state/deprecations.md` | Deprecated assumptions — logged when an assumption is proven wrong |
 | `project/state/cross-branch-flags.md` | Cross-branch implications — logged when a decision affects another branch |
 | `project/state/questions-log.md` | Questions asked and answered (both phases) |
+| `project/state/risks.md` | Risk register — populated as risks emerge. Client assessment is authoritative; note developer dissents in Mitigation. |
 | `project/board/kanban.md` | Task board — populated as branches resolve |
 | `project/docs/index.md` | Reference document tracker — logged as developer/client provide materials |
 | `project/interactions/index.md` | Client interaction tracker — meeting notes, email threads, call summaries. Do NOT pre-load; consult on demand. |
