@@ -218,6 +218,8 @@ The agent drafts a single question, grounded in the overview and targeting a spe
 
 **Question format and guidelines:** See [`docs/examples.md`](docs/examples.md) for the format template and examples of well-formed questions.
 
+**Agenda mode — client meetings:** The one-at-a-time rule applies to mediated async communication (emails, individual messages). If the developer has a scheduled meeting with the client, the agent switches to agenda mode: it prepares a structured agenda document with all open questions grouped by topic/branch, saves it to `project/interactions/`, and the developer reviews the full agenda before the meeting. After the meeting, responses are recorded and extracted into state files as usual. See Agenda Mode protocol in `agent/process-agent.md`.
+
 ### Step 3: Developer Review
 
 The developer reviews the question before it is sent. The developer may:

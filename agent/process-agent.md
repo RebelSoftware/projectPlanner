@@ -130,6 +130,14 @@ If any unchecked, return to the relevant step. Do not present for sign-off until
 ### Archive
 Snapshots at: end of Phase One sign-off, end of Phase Two sign-off, or on developer request. Timestamped copy of `project/state/`, `project/board/`, `project/interactions/`, and `project/docs/` into `project/archive/`.
 
+### Agenda Mode
+When the developer has a scheduled client meeting (not async Q&A):
+1. Prepare an agenda document in `project/interactions/` covering all open questions across branches.
+1. Group questions by topic/branch. Include context for each so the developer can lead the conversation.
+1. The developer reviews the full agenda before the meeting — not one question at a time.
+1. After the meeting, record responses in `project/interactions/` and extract key findings into state files as usual.
+1. The one-at-a-time rule resumes for any follow-up async questions.
+
 ---
 
 > **Full detail:** See [`process.md`](../process.md) for rationale, examples, sign-off failure re-entry paths, and the complete document type checklists.
