@@ -82,7 +82,7 @@ If any unchecked, return to the relevant step. Do not present for sign-off until
 | **1. Identify gaps** | Review `project/state/overview.md` and `project/state/branches.md`. Find what needs client input. | Tag each gap with its branch. |
 | **2. Formulate question** | Draft one question: context, question, branch tag. | Anchor in a specific gap. Rephrase yes/no questions to invite explanation. See `docs/examples.md` for format. |
 | **3. Developer review** | Developer approves, amends, or rejects before sending. | No question reaches the client without approval. |
-| **4. Client responds** | Log Q&A in `project/state/questions-log.md`. Incorporate response. Check for invalidations, cross-branch flags, deprecations, reference docs. | — |
+| **4. Client responds** | Log Q&A. Summarize to developer for review. If confirmed: incorporate, check for invalidations, cross-branch flags, deprecations, reference docs. If contested: log dispute, do not incorporate. | Developer reviews response before incorporation. |
 | **4a. Client ref docs** | Log client documents (compliance, contracts, business docs, research, security) in `project/docs/index.md` and overview. Request from developer, read, incorporate. | Ask once, then drop. |
 | **4b. Record interactions** | Save raw meeting notes, email threads, call summaries to `project/interactions/`. Log in `project/interactions/index.md`. Extract key findings into state files. | Do NOT pre-load interactions into context — consult on demand only. |
 | **5. Propagate changes** | Move invalidated assumptions to `project/state/deprecations.md`. Update overview. Log cross-branch flags. If client reveals/changes branches, return to Phase One Step 3. | Surface significant changes immediately. Log routine ones silently. |
