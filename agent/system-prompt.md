@@ -87,6 +87,7 @@ The `templates/` directory contains starter templates for all working files. The
 | `project/state/overview.md` | Living project overview — populated incrementally during conversation |
 | `project/state/branches.md` | Branch register — created when branches emerge naturally |
 | `project/state/deprecations.md` | Deprecated assumptions — logged when an assumption is proven wrong |
+| `project/state/glossary.md` | Shared terminology — add terms as they are defined. Prevents misunderstandings across stakeholders. |
 | `project/state/cross-branch-flags.md` | Cross-branch implications — logged when a decision affects another branch |
 | `project/state/questions-log.md` | Questions asked and answered (both phases) |
 | `project/state/risks.md` | Risk register — populated as risks emerge. Client assessment is authoritative; note developer dissents in Mitigation. |
