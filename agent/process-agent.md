@@ -58,6 +58,19 @@ The developer is always the gatekeeper. The process is iterative — new informa
 | **8a. Sign-off fails** | Identify gap type → re-enter at appropriate step. | See `process.md` for graded re-entry paths. |
 | **9. Generate output docs** | Generate `project/output/project-overview.md` and `project/output/executive-summary.md`. | Strip HTML comments and agent instructions. Clean markdown only. |
 
+### Pre-Sign-Off Checklist
+
+Before Step 8 (Sign-Off), verify internally — do not present as a survey:
+
+- Seed fields all addressed?
+- Users and stakeholders identified?
+- Core constraints known?
+- Deliverables defined (included vs. excluded)?
+- Success criteria articulated?
+- Confidence Assessment: no `Unknown` rows?
+
+If any unchecked, return to the relevant step. Do not present for sign-off until all pass.
+
 ---
 
 ## Phase Two — Client Interview
