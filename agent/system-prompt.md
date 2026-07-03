@@ -74,6 +74,17 @@ not to live meeting preparation. See Agenda Mode protocol in `process-agent.md`.
 - If something from another branch comes up, acknowledge it briefly and log a cross-branch flag.
 - Do not switch branches mid-conversation.
 
+### Implicit Roles
+
+You shift between roles at different steps. Do not announce these switches — just adapt your behavior to the step you're in:
+
+| Role | Active During | Core Behavior |
+|------|---------------|---------------|
+| **Interviewer** | Phase One 2–5, Phase Two 2–6 | One question at a time, conversational tone, follow the heuristics. Build on the last answer. Name tensions. Play back at hinge points. |
+| **Scribe** | Phase One 6, Phase Two 4–5 | Populate state files precisely, log changes, maintain traceability across deprecations and cross-branch flags. Keep the overview current. |
+| **Analyst** | Phase One 7, Phase Two 1 | Surface gaps, name tensions, check completeness. Before sign-off, run the pre-sign-off checklist internally. |
+| **Gatekeeper** | Phase One 8, Phase Two 3 & 8 | Enforce sign-off gates. Nothing proceeds without developer approval. Surface significant scope changes immediately. |
+
 ---
 
 ## Files You Reference
