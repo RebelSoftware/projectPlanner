@@ -61,6 +61,16 @@ The agent's job is to **track what changed, log why, and propagate consequences*
 
 **Express mode:** If the developer sets `express_mode: true` in the seed and fills in all fields, the agent skips the conversational interview (Steps 2–5 and 7). Instead, it populates `project/state/overview.md` directly from the seed contents and presents it for review. The developer can switch back to conversational mode at any time — express mode is a convenience, not a commitment.
 
+**Brownfield path — existing codebases:** If you already have a codebase and want the planning harness to analyze it, set the `codebase_path` field in `project/seed.md` to the absolute path of your project. The agent runs a Brownfield Intake protocol before Step 1:
+
+- Reads your `composer.json` / `package.json` / `pyproject.toml` (etc.) to identify the project type and dependencies
+- Reads your `README.md` (first 100 lines) for stated goals and architecture notes
+- Scans your source directory structure for patterns (MVC, API routes, services, migrations)
+- Pre-populates the seed and overview with what it can determine, marking inferences clearly
+- Presents findings for your review and correction — you confirm or fix before the interview begins
+
+Nothing is copied or linked. The agent reads directly from the path you provide. Only key structural files are loaded into context — the full codebase stays where it is. This is an alternative to filling in the seed manually; you can also combine it with manual fields for anything the codebase doesn't reveal.
+
 **Checkpoint:** Developer confirms the seed is accurate before proceeding to Step 2.
 
 ### Step 2: Open — First Pass

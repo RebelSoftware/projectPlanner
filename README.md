@@ -51,6 +51,8 @@ If your agent doesn't auto-load `AGENTS.md`, tell it:
 
 The agent will set up the `project/` directory and prompt you to fill in `project/seed.md`. Keep it brief — 5 minutes max. Rough answers are fine; the agent will explore them with you. You can also ask the agent to interview you through the seed questions one at a time.
 
+> **Already have a codebase?** Set the `codebase_path` field in `project/seed.md` to the absolute path of your project. The agent scans your project structure, config files, and README to pre-populate the seed and overview automatically — no manual form-filling needed. Nothing is copied or linked; the agent reads directly from your codebase. See the Brownfield Path section in `process.md` for full details.
+
 ### Step 4: Get Interviewed
 
 The agent will ask you **one question at a time**, building on your last answer. The conversation should feel natural — like working with a colleague who's helping you think things through.
