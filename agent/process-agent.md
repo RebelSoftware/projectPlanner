@@ -138,6 +138,27 @@ When the developer has a scheduled client meeting (not async Q&A):
 1. After the meeting, record responses in `project/interactions/` and extract key findings into state files as usual.
 1. The one-at-a-time rule resumes for any follow-up async questions.
 
+### Brownfield Intake
+When `codebase_path` is set in `project/seed.md`, run this protocol before Step 1:
+
+1. Read the directory tree (top two levels). Identify the project type from config files:
+   - `composer.json` → PHP / Laravel
+   - `package.json` → Node / JS / TS
+   - `requirements.txt` / `pyproject.toml` → Python
+   - `Cargo.toml` → Rust
+   - `go.mod` → Go
+1. Extract from config files: project name, description, dependencies, scripts.
+1. Read `README.md` (first 100 lines) for stated goals, setup instructions, and architecture notes.
+1. Scan key source directories for patterns: MVC structure, API routes, service classes, database migrations.
+1. Populate `project/seed.md` with what you can determine — mark inferred fields with `(inferred)`.
+1. Populate `project/state/overview.md` with extracted architecture, constraints, and dependencies.
+1. Present findings to the developer: *"Here's what I've extracted from your codebase. What did I get wrong, and what's missing?"*
+1. Corrections from the developer overwrite inferences. Proceed to normal Step 1.
+
+**What you're looking for:** project structure, framework, key dependencies, existing patterns, stated goals (README), gaps between what the code does and what it claims to do.
+
+**Context discipline:** Read only the files listed above. Do not load the entire codebase into context. Extract and summarize — the codebase is source material, not working memory.
+
 ---
 
 > **Full detail:** See [`process.md`](../process.md) for rationale, examples, sign-off failure re-entry paths, and the complete document type checklists.

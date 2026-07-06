@@ -52,6 +52,13 @@ the agent will explore them with you in conversation.
 
 <!-- Links to documents, prior conversations, existing systems, research — anything that already exists. -->
 
+## Existing Codebase
+
+<!-- Set to the absolute path of your existing project. Leave empty if starting fresh.
+The agent will scan the codebase to pre-populate the seed and overview. -->
+
+codebase_path:
+
 ## What Success Looks Like
 
 <!--
