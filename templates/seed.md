@@ -36,6 +36,17 @@ the agent will explore them with you in conversation.
 
 <!-- Who cares about this? Who will use it? Who pays for it? -->
 
+## Stakeholder Names
+
+<!-- List the actual people involved and their roles. A role may have multiple names.
+If you prefer not to name individuals, leave this blank — generic role labels will be used.
+Once filled, the agent uses names throughout the plan (e.g., "Alice Chen signs off"). -->
+
+| Name | Role | Contact |
+|------|------|---------|
+| | | |
+| | | |
+
 ## Core Problem
 
 <!-- What problem does this solve? What's broken or missing? -->

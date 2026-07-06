@@ -51,6 +51,7 @@ The agent's job is to **track what changed, log why, and propagate consequences*
 
 1. The developer may fill in `project/seed.md` — a minimal form that takes ≤5 minutes.
 1. The agent reads `project/seed.md` to establish initial context.
+1. **Capture stakeholders.** If the developer lists named individuals in the Stakeholder Names table, the agent records them in `project/state/stakeholders.md` and uses names throughout the plan — sign-off, branch ownership, Kanban tasks — instead of generic role labels. If the developer leaves names blank, generic roles continue to apply.
 
 **If the seed is incomplete or empty:** The agent does not proceed blindly. Instead:
    - Offer the developer two paths:
