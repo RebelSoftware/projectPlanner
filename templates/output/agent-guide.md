@@ -48,6 +48,7 @@ Do not assume. A wrong Docker setup takes longer to undo than it takes to ask. T
    - **Risks:** Add new risks as they emerge. Update likelihood or impact if they change.
    - **Deprecations:** If an assumption in the plan proves wrong, log it — don't silently overwrite. What changed, why, and what replaces it.
    - **Confidence:** As unknowns become known, update the confidence assessment.
+   - **Timestamps:** Every time you modify a document, add or update `**Last modified:** YYYY-MM-DD HH:MM` at the bottom. This maintains a change timeline.
 
    A plan that doesn't reflect reality is worse than no plan at all.
 
