@@ -2,6 +2,27 @@
 
 # Changelog
 
+## 0.3.0 — 2026-07-07
+
+### Added
+- **Implicit roles** — Interviewer, Scribe, Analyst, Gatekeeper mapped to process steps (`system-prompt.md`)
+- **Brownfield intake** — `codebase_path` field in seed; agent scans existing codebase to pre-populate plan
+- **Stakeholder register** — named individuals with roles; agent uses names throughout the plan (`templates/state/stakeholders.md`)
+- **Context card** — 15-line bootstrap for fast session resume (`templates/state/context-card.md`)
+- **Agent guide output** — generated document telling AI agents how to navigate and act on the plan (`templates/output/agent-guide.md`)
+- **Version footer on output** — all generated docs carry harness version and date
+- **Agent guide directives** — "Before You Start Coding" (confirm environment), "Keep the Plan Alive" (update docs as you work)
+
+### Changed
+- **Session resume** now loads context card first; session-status.md is secondary
+- **Staleness check** tiered: 2-day recap offer, 7-day change check
+- **One-question rule** relaxed: small-cluster exception (2-3 coupled questions) and agenda mode (client meetings)
+- **Kanban scope** clarified: planning artifact, not execution tracker; execution columns are developer-managed
+
+### Added (process)
+- Confidence assessment in output project overview
+- Brownfield intake documented in `process.md` and `README.md`
+
 ## 0.2.0 — 2026-06-30
 
 ### Added
