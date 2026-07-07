@@ -41,7 +41,15 @@ Do not assume. A wrong Docker setup takes longer to undo than it takes to ask. T
 
 3. **Follow the confidence levels.** Areas marked `High` are well-understood — treat them as settled. Areas marked `Medium` or `Low` have assumptions that may need validation. Flag these before acting on them.
 
-4. **Track changes to assumptions.** If something in the plan proves wrong during implementation, note what changed and why. The plan is a living document — deprecate old assumptions rather than silently overwriting them.
+4. **Keep the plan alive.** This is not a static reference — update it as you work:
+
+   - **Kanban:** Add new tasks as you discover them. Mark tasks complete when done. Update dependencies if the order shifts.
+   - **Design decisions:** When you make a non-obvious choice (database schema, API structure, library selection), document it in the relevant state file or a new decision record. Include *why* — the rationale matters more than the outcome.
+   - **Risks:** Add new risks as they emerge. Update likelihood or impact if they change.
+   - **Deprecations:** If an assumption in the plan proves wrong, log it — don't silently overwrite. What changed, why, and what replaces it.
+   - **Confidence:** As unknowns become known, update the confidence assessment.
+
+   A plan that doesn't reflect reality is worse than no plan at all.
 
 5. **Check open questions.** Any unresolved items in the Open Questions section should be addressed before they become blockers.
 
