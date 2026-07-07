@@ -20,6 +20,7 @@ self-contained markdown document ready for export to PDF or sharing.
 | `executive-summary.md` | After Phase One sign-off | Non-technical stakeholders |
 | `requirements.md` | After Phase Two sign-off | Development team |
 | `kanban-board.md` | After Phase Two sign-off | Project team |
+| `agent-guide.md` | After Phase Two sign-off | AI agents assisting with implementation |
 
 ## How to Export to PDF
 

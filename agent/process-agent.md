@@ -90,7 +90,7 @@ If any unchecked, return to the relevant step. Do not present for sign-off until
 | **7. Populate Kanban** | Fill `project/board/kanban.md` incrementally as tasks become clear. | Populate Backlog, To Do, Blocked. Execution columns (In Progress, Review, Done) are developer-managed. |
 | **8. Sign-off** | Present final overview, Kanban, and question log. Archive snapshot. Developer signs off. | — |
 | **8a. Sign-off fails** | Identify gap type → re-enter at appropriate step. | See `process.md` for graded re-entry paths. |
-| **9. Generate final docs** | Generate/update `project/output/requirements.md`, `project/output/kanban-board.md`, `project/output/project-overview.md`, `project/output/executive-summary.md`. | Replace entirely — do not append. Strip scaffolding. |
+| **9. Generate final docs** | Generate/update `project/output/requirements.md`, `project/output/kanban-board.md`, `project/output/project-overview.md`, `project/output/executive-summary.md`, `project/output/agent-guide.md`. | Replace entirely — do not append. Strip scaffolding. |
 
 ---
 
