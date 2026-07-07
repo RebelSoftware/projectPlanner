@@ -161,6 +161,12 @@ When `codebase_path` is set in `project/seed.md`, run this protocol before Step 
 
 **Context discipline:** Read only the files listed above. Do not load the entire codebase into context. Extract and summarize — the codebase is source material, not working memory.
 
+### Harness Maintenance
+
+When you modify harness files (anything outside `project/`), update `CHANGELOG.md` under an `## Unreleased` heading before committing. When bumping the version, move Unreleased entries to a dated version section and update `VERSION`.
+
+Do not read `CHANGELOG.md` for planning context — it is harness metadata. Consult it only when you need to know what was recently changed.
+
 ---
 
 > **Full detail:** See [`process.md`](../process.md) for rationale, examples, sign-off failure re-entry paths, and the complete document type checklists.
