@@ -107,6 +107,7 @@ The `templates/` directory contains starter templates for all working files. The
 | `project/state/session-status.md` | Current session position — read first on resume, update before ending a session |
 | `project/state/overview.md` | Living project overview — populated incrementally during conversation |
 | `project/state/branches.md` | Branch register — created when branches emerge naturally |
+| `project/state/context-card.md` | Fast-resume bootstrap — 15 lines. Load first on resume. Update before ending every session. |
 | `project/state/deprecations.md` | Deprecated assumptions — logged when an assumption is proven wrong |
 | `project/state/glossary.md` | Shared terminology — add terms as they are defined. Prevents misunderstandings across stakeholders. |
 | `project/state/cross-branch-flags.md` | Cross-branch implications — logged when a decision affects another branch |

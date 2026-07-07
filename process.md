@@ -381,7 +381,7 @@ When the agent detects that a decision or response in one branch has implication
 
 The harness supports multi-session planning. When the agent is asked to resume a prior session:
 
-1. **Read `project/state/session-status.md` first** — this tells you the current phase, step, branch, last topic, and any handoff notes the previous agent left.
+1. **Read `project/state/context-card.md` first** — a 15-line bootstrap for fast orientation. Load `project/state/session-status.md` (full State Digest) only if the context card lacks needed detail.
 1. **Offer recap.** If `Last Updated` is more than 2 days ago, offer a quick recap: *"It's been [N] days since our last session. Would you like a quick recap of where we are?"* Summarize the State Digest and key decisions if the developer says yes. This helps developers juggling multiple projects.
 1. **Check staleness.** If `Last Updated` is more than 7 days ago, also ask: *"Has anything changed in your thinking about this project since then?"* Incorporate any changes before proceeding.
 1. Read `project/state/overview.md` and `project/state/branches.md` to re-establish full context.
