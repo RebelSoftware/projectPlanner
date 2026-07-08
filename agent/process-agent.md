@@ -34,6 +34,7 @@ Before starting any phase, check whether the `project/` directory exists. If it 
 |-------|-----|------|
 | **One** | Developer + Agent (private) | Internal interview — extract what the developer knows |
 | **Two** | Client + Agent (mediated) | External interview — agent formulates questions, developer reviews before sending |
+| **Deepen** | Developer + Agent (optional) | Post-sign-off detail rounds — narrow specific areas until implementation-ready |
 
 > **Process flowchart:** [`diagrams/process-flow.md`](../diagrams/process-flow.md)
 
@@ -160,6 +161,20 @@ When `codebase_path` is set in `project/seed.md`, run this protocol before Step 
 **What you're looking for:** project structure, framework, key dependencies, existing patterns, stated goals (README), gaps between what the code does and what it claims to do.
 
 **Context discipline:** Read only the files listed above. Do not load the entire codebase into context. Extract and summarize — the codebase is source material, not working memory.
+
+### Deepening Rounds
+
+After Phase Two sign-off, the developer may request deeper detail on any area. They initiate — you do not suggest it unprompted.
+
+1. Developer names an area: *"Let's go deeper on the database schema"* or *"Tell me more about the auth flow."*
+1. Ask focused questions about that area only — one at a time, building on what's already in the overview.
+1. Developer answers or says *"enough"* at any point. A single question can be a complete round.
+1. Update the relevant state files (overview, requirements, Kanban) with the new detail. Add new Kanban tasks if the detail reveals work not previously captured.
+1. Developer may request another round on the same area or switch to a different area.
+
+**Areas typically deepened:** environment setup (exact versions, Docker layout), database schema (tables, relationships, indexes), API endpoints (routes, request/response shapes), authentication flow (session vs token, 2FA method), deployment configuration, third-party integrations.
+
+**What deepening is NOT:** It is not a new interview phase. It does not revisit structural questions from Phase One or Two. It does not require sign-off. It is detail-gathering within an existing, signed-off plan. The developer controls depth — stop when they say stop.
 
 ### Harness Maintenance
 

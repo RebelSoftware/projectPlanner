@@ -371,6 +371,29 @@ After Phase Two sign-off, the agent generates additional printable documents:
 
 ---
 
+## Deepening Rounds (Optional, Post-Sign-Off)
+
+After Phase Two sign-off, the developer may request deeper detail on specific areas. This bridges the gap between the structural plan and implementation-ready specifics.
+
+**How it works:**
+- The developer initiates a round by naming an area: *"Let's go deeper on the database schema."*
+- The agent asks focused questions about that area only — one at a time, building on what's already in the overview.
+- The developer answers or says *"enough"* at any point. There is no minimum — a single question can be a round.
+- The agent updates the relevant state files (overview, requirements, Kanban) with the new detail.
+- The developer may request another round on the same area or switch to a different area.
+
+**Areas developers typically deepen:**
+- Environment setup (exact versions, Docker Compose layout, port mappings)
+- Database schema (tables, columns, relationships, indexes)
+- API endpoints (routes, request/response shapes, error handling)
+- Authentication flow (session vs token, 2FA method, password policies)
+- Deployment configuration (CI/CD, environment variables, secrets management)
+- Third-party integrations (which services, API keys, rate limits)
+
+**What deepening is not:** It is not a new interview phase. It does not revisit structural questions from Phase One or Two. It does not require a separate sign-off — the developer decides when enough detail exists. It is detail-gathering within an already-signed-off plan.
+
+---
+
 ## Cross-Branch Flag Protocol
 
 When the agent detects that a decision or response in one branch has implications for another:
