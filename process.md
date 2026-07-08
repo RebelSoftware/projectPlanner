@@ -206,6 +206,8 @@ After sign-off, the agent generates clean, self-contained printable documents in
 
 **Ask the developer** if they want any additional custom documents generated (e.g., a stakeholder-specific brief).
 
+**Copy reference documents:** Any provided reference documents in `project/docs/` are copied to `project/output/docs/`. These are read-only for the implementing agent — use them for context, do not modify them.
+
 ---
 
 ## Phase Two — Client Interview (External, Mediated)
@@ -362,6 +364,8 @@ After Phase Two sign-off, the agent generates additional printable documents:
 1. **`project/output/agent-guide.md`** — Guide for a new AI agent that tells it how to navigate and act on the completed plan. Includes document map, action rules, and project-specific context. Self-contained — the agent reading it may have no prior context.
 
 **Regeneration rule:** All output documents are replaced, not appended to. Each generation produces the complete, current version of the document. The templates in `templates/output/` serve as the starting scaffold; strip all HTML comments and agent instructions from the generated result.
+
+**Copy reference documents:** Any provided reference documents in `project/docs/` are copied to `project/output/docs/`. These are read-only for the implementing agent.
 
 **Ask the developer** if they want any additional custom documents (e.g., a compliance traceability matrix, a stakeholder communication plan).
 
